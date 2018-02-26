@@ -15,7 +15,7 @@ After doing this, the max number in the array is at right, so we are left with o
 a sorted array. 
 
 
-In a more specific way 
+In a more specific way,
 In order to acheive it, We have to use for loop inside another for loop (nested for loop)
 intArray {20, 40, 10, 5, -7, 11} -> After looping up the array to shift the max number to the extreme right, the result from first loop will look somehow like 
 {20, 10, 5, -7, 11, 40 } <- you will notice that 40 is shifted to the extreme right, in next loop it the array will look like-
