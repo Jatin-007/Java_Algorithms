@@ -1,4 +1,4 @@
-Currently working on Algorithmic problems. 
+Currently working on Algorithmic problems in Java
 All the algorithm problems have their specific folder. 
 
 
