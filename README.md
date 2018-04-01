@@ -1,4 +1,4 @@
-Currently working on Algorithmic problems in Java
+Currently improving my skills in Data structuring and algorithms inside Java..
 All the algorithm problems have their specific folder. 
 
 
