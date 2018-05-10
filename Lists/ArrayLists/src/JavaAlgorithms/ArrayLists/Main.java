@@ -19,7 +19,21 @@ public class Main {
         employeeList.add(3, new Employee("Jatin", "Suneja", 777));
         System.out.println(employeeList.get(3));
 
+        System.out.println("Converting the list to an array");
 
+        Employee[] employeeArray = employeeList.toArray(new Employee[employeeList.size()]);
+        for(Employee employee: employeeArray) {
+            System.out.println(employee);
+        }
 
+        // contains certain data ...
+        System.out.println(employeeList.contains(new Employee("Elon", "Musk", 123)));
+
+        // indexOf method
+        System.out.println(employeeList.indexOf(new Employee("Jeff", "Bezos", 332)));
+
+        employeeList.remove(3);
+
+        employeeList.forEach(employee -> System.out.println(employee));
     }
 }
